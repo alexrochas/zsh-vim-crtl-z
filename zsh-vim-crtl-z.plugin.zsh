@@ -8,5 +8,7 @@ fancy-ctrl-z () {
     zle clear-screen
   fi
 }
-zle -N fancy-ctrl-z
-bindkey '^Z' fancy-ctrl-z
+
+# FIXME Remove those lines or make it run
+# zle -N fancy-ctrl-z
+# bindkey '^Z' fancy-ctrl-z
